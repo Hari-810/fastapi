@@ -1,0 +1,38 @@
+open command promt in your machine using win + return
+
+navigate to particular folder using cd command
+    ex:
+        cd Documents
+
+create a new folder using mkdir command
+    ex:
+        mkdir fastapi_development
+
+navigate to fastapi_development folder using cd command
+    ex:
+        cd fastapi_development  
+
+create a venv using below command
+        python -m venv fastapi
+
+activate the venv using below command
+        fastapi\Scripts\activate.bat
+
+once it activate install packages
+        pip install fastapi
+
+        pip install "uvicorn[standard]"
+
+navigate to fastapi folder using cd command
+    ex:
+        cd fastapi
+
+now create a python file with neccessary statements
+
+
+to run the python file to execute the FastAPI using below command
+        uvicorn books:app --reload
+
+
+
+
